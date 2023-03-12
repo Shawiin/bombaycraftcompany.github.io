@@ -6,7 +6,7 @@ const p = gsap.timeline({
         start: "top 38%",
         end: "middle 55%",
         scrub: 1,
-        markers: true
+       
     }
 });
 p.from(".gugu", { x: 50, opacity: 0, duration: 1 })
